@@ -38,7 +38,7 @@
                 <TextBox Grid.Row="1" x:Name="txtBoxFirstName"></TextBox>
                 <TextBlock Grid.Row="2" >Фамилия</TextBlock>
                 <TextBox Grid.Row="3" x:Name="txtBoxSecondName"></TextBox>
-                <Button Grid.Row="4" Click="Button_Click" Width="100" Margin="10" Background="Teal" Foreground="White" FontWeight="Bold"  >Приветствие</Button>
+                <Button Grid.Row="4" Click="Button_Click" Width="100" Margin="10" Background="Teal" Foreground="White" FontWeight="Bold" HorizontalAlignment="Stretch" >Приветствие</Button>
                 <Label Grid.Row="5" x:Name="lblOutput" Background="CadetBlue" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center"/>
             </Grid>
         </GroupBox>

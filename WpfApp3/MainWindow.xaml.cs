@@ -39,9 +39,10 @@ namespace WpfApp3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string name = txtBoxFirstName.Text;
-            string surname = txtBoxSecondName.Text;
+            string name = (txtBoxFirstName.Text).Trim();
+            string surname = (txtBoxSecondName.Text).Trim();
 
+            
             if(name!="" && surname!="")
             {
                 lblOutput.Content = "Бонжур, " + name + " " + surname+"!";
